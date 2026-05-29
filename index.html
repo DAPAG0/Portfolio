@@ -3,13 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio - David</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<body>
-    <ul>
-        <li><a href="https://inventario-fuae.onrender.com/login">Aplicación web - Gestión inventario</a></li>
-        <li><a href="https://mailteck.onrender.com/">Landing Page - MailTeck</a></li>
-    </ul>
-    
+<body class="bg-light d-flex flex-column min-vh-100">
+
+    <header class="bg-white py-5 border-bottom">
+        <div class="container text-center my-4">
+            <h1 class="display-4 fw-bold text-dark">Mis Proyectos</h1>
+            <p class="lead text-muted">Aplicaciones web y desarrollos que he realizado.</p>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <div class="row g-4 justify-content-center">
+            
+            <div class="col-md-6 col-lg-5">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <span class="badge bg-primary align-self-start mb-2">Aplicación Web</span>
+                        <h3 class="card-title h5">Gestión de Inventario</h3>
+                        <p class="card-text text-muted flex-grow-1">Sistema completo para el control, registro y administración de inventarios.</p>
+                        <a href="https://inventario-fuae.onrender.com/login" target="_blank" class="btn btn-outline-primary w-100 mt-3">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-5">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <span class="badge bg-success align-self-start mb-2">Landing Page</span>
+                        <h3 class="card-title h5">MailTeck</h3>
+                        <p class="card-text text-muted flex-grow-1">Página de aterrizaje optimizada para la conversión y presentación de servicios de MailTeck.</p>
+                        <a href="https://mailteck.onrender.com/" target="_blank" class="btn btn-outline-success w-100 mt-3">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <small>&copy; 2026 David. Todos los derechos reservados.</small>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
